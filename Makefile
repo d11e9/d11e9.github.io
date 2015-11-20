@@ -5,4 +5,5 @@ install:
 
 build:
 	jekyll build
+	cp -rf _site/* .
 
